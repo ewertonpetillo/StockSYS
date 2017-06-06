@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/ewerton/Documentos/UEA/SO2/STOCKSYS/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/home/ewerton/Documentos/UEA/SO2/STOCKSYS/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_601c90fd3552491e506494e4aa4fcba23f91f0da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ewerton/Documentos/UEA/SO2/STOCKSYS/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f94eb21c41fc05c8b83758a7abe40583c2d7f30">
+        <dex dex="/home/ewerton/Documentos/UEA/SO2/STOCKSYS/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cc2ec2c21cf677f016e1e0ac4e2f1bfc404cce58/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrador.stocksys.ListaEstoque">
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/controle_estoque"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material em estoque"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:layout_alignTop="@+id/imageView7"
+            android:layout_toRightOf="@+id/imageView7"
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="29dp" />
+
+        <ListView
+            android:id="@+id/listMat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView7" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

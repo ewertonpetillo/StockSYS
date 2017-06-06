@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrador.stocksys.AltExcServidor">
+
+    <RelativeLayout
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/editNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="31dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nome" />
+
+        <EditText
+            android:id="@+id/editCargo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editNome"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/editNome"
+            android:layout_below="@+id/editNome"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Cargo" />
+
+        <EditText
+            android:id="@+id/editMatricula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editSerie"
+            android:layout_alignBottom="@+id/editSerie"
+            android:layout_alignLeft="@+id/editCargo"
+            android:layout_alignStart="@+id/editCargo"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Matrícula" />
+
+        <EditText
+            android:id="@+id/editSerie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editCargo"
+            android:layout_toEndOf="@+id/editMatricula"
+            android:layout_toRightOf="@+id/editMatricula"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Série" />
+
+        <EditText
+            android:id="@+id/editSala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Sala"
+            android:layout_marginTop="7dp"
+            android:layout_below="@+id/editMatricula"
+            android:layout_alignLeft="@+id/editMatricula"
+            android:layout_alignStart="@+id/editMatricula" />
+
+        <EditText
+            android:id="@+id/editTurno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editSala"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editMatricula"
+            android:layout_toEndOf="@+id/editMatricula"
+            android:layout_toRightOf="@+id/editMatricula"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Turno" />
+
+        <Button
+            android:id="@+id/btAltera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editSala"
+            android:layout_alignStart="@+id/editSala"
+            android:layout_below="@+id/editSala"
+            android:layout_marginTop="34dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="Alterar"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btExclui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="Excluir"
+            android:textColor="@android:color/background_light"
+            android:layout_below="@+id/btAltera"
+            android:layout_alignLeft="@+id/btAltera"
+            android:layout_alignStart="@+id/btAltera"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

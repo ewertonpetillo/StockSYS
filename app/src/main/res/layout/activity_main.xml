@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.example.administrador.stocksys.MainActivity">
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="539dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="143dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="@dimen/Logo"
+                android:layout_height="@dimen/Logo"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/icone6" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:text="StockSYS"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Sistema de Controle de Material e Estoque"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@android:color/background_light">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/edtUser"
+                android:layout_marginTop="18dp"
+                android:text="Senha:"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtCad"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="24dp"
+                android:background="?attr/colorPrimaryDark"
+                android:text="Entrar"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12dp"
+                android:text="Usuário:"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtCad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/btnLogin"
+                android:layout_alignLeft="@+id/btnLogin"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/btnLogin"
+                android:layout_alignStart="@+id/btnLogin"
+                android:layout_marginBottom="11dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="Não sou cadastrado. Desejo me cadastrar."
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

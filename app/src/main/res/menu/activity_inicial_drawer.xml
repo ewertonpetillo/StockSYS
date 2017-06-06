@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navUser"
+        android:title="Usuários"></item>
+    <item
+        android:icon="@drawable/servidor"
+        android:title="Servidor" >
+        <item
+            android:title="Novo Servidor"
+            android:id="@+id/navNewServidor"/>
+        <item
+            android:title="Lista de Servidores"
+            android:id="@+id/navListServidores"/>
+            />
+    </item>
+    <item
+        android:icon="@drawable/icon"
+        android:title="Material">
+        <item
+                android:title="Novo material"
+                android:id="@+id/navNewMaterial"/>
+        <item
+                android:title="Estoque"
+                android:id="@+id/navEstoque"/>
+        />
+    </item>
+    <item
+        android:id="@+id/navSair"
+        android:title="Sair" /><![CDATA[
+
+    />
+
+    />
+
+
+]]>
+</menu>

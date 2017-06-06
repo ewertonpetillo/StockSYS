@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.administrador.stocksys.InicialActivity"
+    tools:showIn="@layout/app_bar_inicial">
+
+    <LinearLayout
+        android:layout_width="333dp"
+        android:layout_height="530dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <ImageView
+            android:id="@+id/imgEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/varejo"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="53dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:layout_above="@+id/imageView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="8dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Entrada de Material"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="36sp"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="400dp" />
+
+        <ImageView
+            android:id="@+id/imgSaida"
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:layout_above="@+id/textView14"
+            android:layout_alignLeft="@+id/imageView10"
+            android:layout_alignStart="@+id/imageView10"
+            app:srcCompat="@drawable/controle_estoque"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="229dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView8"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Saída de Material"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="36sp"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="348dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
